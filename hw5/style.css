@@ -1,0 +1,61 @@
+div {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#main {
+    width: 720px;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    float: left;
+    font-size: 55px;
+    text-align: center;
+}
+
+.even {
+    background-color: saddlebrown;
+}
+
+.odd {
+    background-color: white;
+}
+
+.vertical {
+    width: 40px;
+    height: 80px;
+    background-color: brown;
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.revers {
+    transform: rotate(180deg);
+}
+
+.gorizontal {
+    width: 80px;
+    height: 40px;
+    background-color: brown;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.gorizontalZero {
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    float: left;
+}
+
+.both:after {
+    display: table;
+    content: "";
+    clear: both;
+}
